@@ -1,0 +1,77 @@
+body{
+    margin:0%;
+    padding:0%;
+}
+
+a{
+    padding:2px;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    background-color:slategrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+nav h1{
+    background-color:#EEF4ED ;
+    color:slategrey;
+}
+
+.links{
+    display: flex;
+    align-items: end;
+}
+
+header{
+    display: flex;
+    background-color: #134074;
+    padding:  25px 0px 25px 0px;
+    justify-content: center;
+    color: #EEF4ED;
+
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.aside-about{
+    border-right: 5px solid black;
+    height: 200px;
+    position: relative
+
+}
+
+.aside-work{
+    border-right: 5px solid black;
+    height: 200px;
+    position: relative
+}
+
+.aside-contact{
+    border-right: 5px solid black;
+    height: 200px;
+    position: relative
+}
+
+.me{
+    margin: 100px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
